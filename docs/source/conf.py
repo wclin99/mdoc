@@ -40,4 +40,3 @@ html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 
-html_baseurl = "https://wclin99.github.io/mdoc/"
