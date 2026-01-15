@@ -1,0 +1,12 @@
+{
+  "esbonio.sphinx.pythonCommand": [".venv/bin/python"],
+  "esbonio.sphinx.buildCommand": [
+    "sphinx-build",
+    "-M",
+    "html",
+    "docs/source",
+    "docs/build",
+    "-j",
+    "auto"
+  ]
+}
