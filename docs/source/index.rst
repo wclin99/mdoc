@@ -24,6 +24,7 @@ Contents
 
   usage
   about
+  test
 
 
 
