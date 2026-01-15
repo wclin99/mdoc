@@ -22,8 +22,8 @@ Contents
   :maxdepth: 2
   :caption: Contents:
 
-   usage
-   about
+  usage
+  about
 
 
 
