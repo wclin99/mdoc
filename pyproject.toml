@@ -6,9 +6,20 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "doc8>=2.0.0",
+    "furo>=2025.12.19",
     "myst-parser>=4.0.1",
     "rstcheck>=6.2.5",
     "sphinx<9",
     "sphinx-bootstrap-theme>=0.8.1",
 ]
 
+
+[tool.esbonio.sphinx]
+pythonCommand = [".venv/bin/python"]
+buildCommand = [
+  "sphinx-build",
+  "-M",
+  "html",
+  "docs/source",
+  "docs/build"
+]

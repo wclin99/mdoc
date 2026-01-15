@@ -15,8 +15,10 @@ author = 'wclin'
 
 extensions = [
     'sphinx.ext.duration',
-    'myst_parser'
+    'myst_parser',
 ]
+
+
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -35,8 +37,11 @@ source_suffix = {
 # html_theme = 'alabaster'
 # html_static_path = ['_static']
 
-import sphinx_bootstrap_theme
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+# import sphinx_bootstrap_theme
+# html_theme = 'bootstrap'
+# html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
+
+import furo
+html_theme = 'furo'
 
